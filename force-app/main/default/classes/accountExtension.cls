@@ -10,11 +10,9 @@ public with sharing class accountExtension {
 
     public void display()
         {
-<<<<<<< HEAD
-            this.message= 'welcome to the the gu the hello all standard controller wih extension';
-=======
-            this.message= 'welcome to the the all the standard controller wih extension';
->>>>>>> mybranch1
+
+            this.message= 'welcome to the the four all the standard controller wih extension';
+
         }
 
 
