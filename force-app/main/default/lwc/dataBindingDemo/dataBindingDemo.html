@@ -1,0 +1,22 @@
+<template>
+    <lightning-card  title="data binding demo" class="slds-var-m-around_medium">
+        <div class="slds-var-m-around_medium">
+           
+                {firstname}<br/>
+                {obj1.age}<br/>
+                {obj1.lastname}<br/>
+                {obj1.address.state}<br/>
+                {fruit}<br/>
+                {price}<br/>
+         
+
+        </div>
+        
+        <lightning-input label="Enter name" value={firstname} onchange={handleEvent} name="inputform1" >
+       
+        </lightning-input>
+       
+    </lightning-card>
+
+    
+</template>

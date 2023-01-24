@@ -1,0 +1,18 @@
+<apex:component controller="scriptdemocontroller">
+
+<apex:form >
+<apex:inputField value="{!con.Firstname}">
+
+</apex:inputField>
+
+<apex:inputField value="{!con.Lastname}">
+
+</apex:inputField>
+
+<apex:commandButton value="submit to create contact" action="{!createContact}">
+
+</apex:commandButton>
+
+</apex:form>
+
+</apex:component>

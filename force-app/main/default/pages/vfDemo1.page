@@ -1,0 +1,8 @@
+<apex:page >
+<apex:composition template="vfTemplate">
+<apex:define name="body">
+    <p>this is the body</p>
+</apex:define>
+
+</apex:composition>
+</apex:page>

@@ -1,0 +1,5 @@
+<apex:component id="child1" controller="mychildcontroller">
+
+<h1 style="color:royalblue;font-size:40px">{!userName}</h1>
+
+</apex:component>

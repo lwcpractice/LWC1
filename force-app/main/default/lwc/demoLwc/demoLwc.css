@@ -1,0 +1,9 @@
+.myfirstdiv
+{
+    background-color: green;
+    color: yellow;
+    border: 20px dotted teal;
+    padding: 15px;
+    margin: 5px;
+    display: block;
+}

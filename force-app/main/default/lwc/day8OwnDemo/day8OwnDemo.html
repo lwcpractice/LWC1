@@ -1,0 +1,22 @@
+<template>
+    
+ 
+        <lightning-card  title="Calculator">
+            <div class="slds-p-around_medium lgc-bg">
+            
+            <lightning-input type="text" label="Number1" value={Number1} onchange={handelChange} name="n1"></lightning-input>
+            <lightning-input type="text" label="Number2" value={Number2} onchange={handelChange} name="n2"></lightning-input>
+            <lightning-input type="text" label="Result" value={Result} ></lightning-input>
+            <br>
+            <lightning-button label="Add" name="b1" class="slds-m-right_medium" onclick={handelClick}></lightning-button>               
+            <lightning-button label="Sub" name="b2" class="slds-m-right_medium" onclick={handelClick}></lightning-button>
+            <lightning-button label="Div" name="b3" class="slds-m-right_medium" onclick={handelClick}></lightning-button>
+            <lightning-button label="Multiply" name="b4" class="slds-m-right_medium" onclick={handelClick} ></lightning-button>
+            <lightning-button label="clear" name="b5" class="slds-m-right_medium" onclick={handelClick}></lightning-button>  
+        </div>
+            
+            </lightning-card>
+
+
+
+</template>

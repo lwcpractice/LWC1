@@ -1,0 +1,50 @@
+<template>
+
+    <lightning-card >
+        <div class="slds-m-around_medium">
+
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_6-of-12">
+                <lightning-combobox 
+                name="Account Rating"
+                label="Rating"
+                value={value}
+                options={statusoption}
+                onchange={handelChange}
+                >
+
+                </lightning-combobox>
+              </div>
+        
+      <div class="slds-col slds-size_6-of-12">
+        <div class="slds-m-top_large">
+            <lightning-button label="get account" name="getaccount" onclick={handelClick} variant="brand"></lightning-button>
+        </div>
+        
+      </div>
+        
+    </div>
+        <template for:each={AccountList} for:item="Account">
+            
+            <div class="slds-grid slds-gutters" key={Account.Id} >
+              
+                <div class="slds-col slds-size_6-of-12">
+                <p>{Account.Name}</p>
+                <p>{Account.Industry}</p>
+                </div>
+                 <div class="slds-col slds-size_6-of-12">
+                 <lightning-button label="deleteaccount" name="accdel" onclick={handeldelete} variant="destructive-text" value={Account.Id}></lightning-button> 
+                </div>
+                    
+          
+
+            </div>
+        
+      
+    
+    </template>
+</div>
+    </lightning-card>
+
+    
+</template>

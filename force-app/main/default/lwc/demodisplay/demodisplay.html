@@ -1,0 +1,20 @@
+<template>
+    
+    <lightning-card>
+    <template for:each={colors} for:item="color">       
+            <div key={color}>
+                {color}    
+            </div>
+    </template>
+
+    <template for:each={persons} for:item="person">
+     <div key={person.name}>
+        {person.age}{person.gender}
+        
+            
+
+     </div>
+
+    </template>
+    </lightning-card>
+</template>

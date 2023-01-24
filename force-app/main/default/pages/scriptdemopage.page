@@ -1,0 +1,49 @@
+<apex:page controller="scriptdemocontroller" id="demopage">
+   
+    
+    <script>
+    
+    function validateInput()
+    {
+       savecontact();
+
+       
+       let val=document.getElementById("mypage:myform:fname").value;
+       if(val=='')
+           {
+              alert('please fill firstanme');
+               
+               }
+       else
+           {
+				               
+             
+           
+           }
+    }
+    
+    
+    
+    
+    </script>
+    {!message}
+    
+    <apex:form id="contactform" >
+        <apex:actionFunction name="savecontact" action="{!createContact}">
+        </apex:actionFunction>
+<apex:inputField value="{!con.Firstname}" id="fname">
+
+</apex:inputField>
+
+<apex:inputField value="{!con.Lastname}" id="lname">
+
+</apex:inputField>
+
+<apex:commandButton value="submit to create contact"  onclick="validateInput(); return false">
+
+</apex:commandButton>
+
+</apex:form>
+   
+
+</apex:page>

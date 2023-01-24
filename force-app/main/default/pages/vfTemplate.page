@@ -1,0 +1,16 @@
+<apex:page >
+  
+
+<apex:insert name="header">
+    <h1>This is the header</h1>
+    <c:sampleComponent ></c:sampleComponent>
+    <br/>
+    </apex:insert>
+    
+<apex:insert name="body"></apex:insert>    
+<apex:insert name="footer">
+    <h2>This is the footer</h2>
+</apex:insert>
+
+
+</apex:page>
