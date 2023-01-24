@@ -10,7 +10,7 @@ public with sharing class accountExtension {
 
     public void display()
         {
-            this.message= 'welcome to the standard controller wih extension';
+            this.message= 'welcome to the the the standard controller wih extension';
         }
 
 
