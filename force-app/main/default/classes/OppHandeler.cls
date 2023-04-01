@@ -40,7 +40,7 @@ public with sharing class OppHandeler
        
        List<Account> AccNewList= new List<Account> ();
 
-       ///refactor required////////////
+       
             for(Account a:AccList)
             {
                integer number1= [select count() FROM Opportunity WHERE AccountId =:a.Id];
@@ -79,4 +79,3 @@ public with sharing class OppHandeler
 
         
     }
-    

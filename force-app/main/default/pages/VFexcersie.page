@@ -1,0 +1,20 @@
+<apex:page controller="myCustomController">
+	
+    
+<apex:form >
+    <apex:pageBlock title="account information">
+    
+    <apex:pageBlockTable value="{!customAccList}" var="a">
+        <apex:column value="{!a.Id}"/>
+        <apex:column value="{!a.Name}"/>
+        
+    
+    
+    </apex:pageBlockTable>    
+   
+    </apex:pageBlock>
+    
+    
+</apex:form>
+    
+</apex:page>

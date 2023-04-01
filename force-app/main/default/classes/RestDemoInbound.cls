@@ -1,4 +1,3 @@
-
 @RestResource(urlMapping='/RestInboundDemo/*')
 
 global with sharing class RestDemoInbound 
@@ -38,4 +37,3 @@ global with sharing class RestDemoInbound
     }
 
 }
-

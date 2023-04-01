@@ -1,0 +1,19 @@
+<apex:page controller="mycutomcontroller2">
+	
+    
+<apex:form >
+    <apex:pageBlock title="account information">
+    
+        <apex:inputField value="{!acc.Name}"></apex:inputField>
+        <apex:inputField value="{!acc.Industry}"></apex:inputField>
+        <apex:commandButton value="insert account" action="{!saveAccount}"> </apex:commandButton>
+        
+    
+     
+   
+    </apex:pageBlock>
+    
+    
+</apex:form>
+    
+</apex:page>
